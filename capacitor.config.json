@@ -1,0 +1,11 @@
+{
+  "appId": "com.apps.judemakes.com",
+  "appName": "Flight_Time_Tracker",
+  "bundledWebRuntime": false,
+  "webDir": "src",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

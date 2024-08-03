@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1f1f1f;
+    padding: 15px;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .stopwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 360px;
+  }
+  
+  #time {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+  
+  .stopwatch button {
+    background-color: #e57373;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    width: calc(33% - 10px);
+  }
+  
+  .stopwatch button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .stopwatch button:active {
+    background-color: #b71c1c;
+  }
+  
+  /* Tab Bar Styles */
+  .tab-bar {
+    background-color: #1f1f1f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .tab-bar button {
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-bar button:hover {
+    background-color: #1565c0;
+  }
+.profile {
+    height: 100%;
+    display: none;
+}
+.loginBUTT {
+  background-color: white;
+  border: 0px;
+  width: 50px;
+  height: 30px;
+  margin-top: 5px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.loginBUTT:hover {
+  margin-top: 10px;
+  background-color: rgb(221, 86, 86);
+}
+#profileMAIN {
+  height: 100%;
+  width: 100%;
+}

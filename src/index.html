@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Flight Tracker</title>
+  <script type="module" src="./main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+</head>
+<body>
+  <header>
+    <h1>Drone Flight Tracker</h1>
+  </header>
+  <div class="main-content" id = "home">
+    <div class="stopwatch" id="stopwatchpage">
+      <p id="time">Rolling time</p>
+      <button id="Start">Start</button>
+      <button id="Stop">Stop</button>
+      <button id="Save">Save</button>
+      <h3>Drone???</h3>
+      <input type="text" id="dronename" name="fname"><br><br>
+    </div>
+  </div>
+  <div class = "profile" id = "profile">
+    <div id = "profileMAIN">
+      <h3 id = 'totalTime'>Total time flying</h3>
+      <h3 id = 'flightTime'>Flight time per day</h3>
+    </div>
+  </div>
+  <footer class="tab-bar">
+    <button id="homeTab">Home</button>
+    <button id="settingsTab">Settings</button>
+    <button id="profileTab">Profile</button>
+  </footer>
+</body>
+</html>
